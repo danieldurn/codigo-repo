@@ -1,5 +1,7 @@
 *{
     background-color: black;
+    width: 100px;
+    height: 100px;
  }
 
  h1 {
@@ -11,10 +13,12 @@
  }
 
  header {
-   width: 400px;
-   height: 400px;
+   width: 4000px;
+   height: 4000px;
 
  }
  #logo  {
   width: 50vw;
+display: flex; 
+margin-left: 50vh;
  }
