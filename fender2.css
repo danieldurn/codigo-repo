@@ -1,24 +1,36 @@
-*{
-    background-color: black;
-    width: 100px;
-    height: 100px;
- }
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Danfo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
- h1 {
-   color :wheat
- }
- header {
-    display:grid
-    ()
- }
+/* esto es codigo css fuerta de bootstrap*/
+* {
+  background-color: rgb(0, 0, 0);
+  padding: 0px;
+  font-family: marriwear;
+  color: white;
+  font-size: 20px;
+}
 
- header {
-   width: 4000px;
-   height: 4000px;
 
- }
- #logo  {
-  width: 50vw;
-display: flex; 
-margin-left: 50vh;
- }
+#logo { 
+  width: 60vh;
+
+}
+
+#texto1{
+  display:flexbox;
+  justify-content:flex-start;
+  text-align:left;
+  font-size: 25px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 3px ;width: 150px;
+  margin:15px;
+  text-align: center;
+
+}
+
+/* a partir de aca es bootstrap */ 
