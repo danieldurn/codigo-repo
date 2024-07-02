@@ -13,14 +13,15 @@
 
 #logo { 
   width: 60vh;
-
+text-align: center;
+margin-right: 50vh;
+margin-left: 50vh;
 }
 
 #texto1{
   display:flexbox;
   justify-content:flex-start;
-  text-align:left;
-  font-size: 25px;
+  text-align:right;
 }
 
 .boton {
@@ -33,4 +34,14 @@
 
 }
 
-/* a partir de aca es bootstrap */ 
+#mayer1 {
+ 
+  display:flexbox;
+  width: 100vh;
+  text-align: center;
+}
+
+#p1 {
+font-size:larger;
+margin-top: 20px;
+}
