@@ -14,8 +14,7 @@
 #logo { 
   width: 60vh;
 text-align: center;
-margin-right: 50vh;
-margin-left: 50vh;
+
 }
 
 #texto1{
@@ -44,4 +43,8 @@ margin-left: 50vh;
 #p1 {
 font-size:larger;
 margin-top: 20px;
+}
+
+#roja {
+  width: 150vh;
 }
